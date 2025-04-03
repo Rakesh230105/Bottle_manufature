@@ -265,7 +265,7 @@ const HomePage = () => {
                   <img 
                     src={product.image} 
                     alt={product.name} 
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute top-3 right-3 bg-white/80 backdrop-blur-sm px-3 py-1 rounded-full text-[#FF7F6E] font-bold">
                     {product.price}
