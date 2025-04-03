@@ -114,13 +114,24 @@ const HomePage = () => {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center w-full overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img 
-            src="/Users/mulpurirakesh/Desktop/bottle/ECO BOTTLE.png" 
-            alt="Eco-friendly bottles" 
-            className="w-full h-full object-cover opacity-20"
-          />
+          
           <div className="absolute inset-0 bg-gradient-to-r from-white/80 to-white/40"></div>
         </div>
+
+        {/* Logo positioned absolutely on the right side with increased size */}
+        <motion.div 
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5, delay: 0.3 }}
+          className="absolute top-8 right-8 z-20"
+        >
+          <img 
+            src="src/assets/logo.png" 
+            alt="EcoBottle Logo" 
+            className="h-24 md:h-32 lg:h-40 w-auto object-contain"
+          />
+        </motion.div>
+
         <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
           <motion.div 
             initial={{ opacity: 0, y: 30 }}

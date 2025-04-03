@@ -301,7 +301,7 @@ const AboutUsPage = () => {
       </section>
 
       {/* Call to Action - Full width with coral background */}
-      <section className="py-16 md:py-24 w-full bg-coral-500 text-white">
+      <section className="py-16 md:py-24 w-full bg-coral-500 text-coral">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -324,7 +324,7 @@ const AboutUsPage = () => {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg font-medium shadow-md"
+                className="bg-transparent border-2 border-white text-coral px-8 py-3 rounded-lg font-medium shadow-md"
               >
                 Learn More
               </motion.button>
