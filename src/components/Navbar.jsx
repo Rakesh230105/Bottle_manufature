@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ShoppingCart } from 'lucide-react';
-import ecoBottleLogo from './assets/logo.png'; // Importing the logo image
+import ecoBottleLogo from '../assets/logo.png'; // Importing the logo image
 
 // Base64 encoded white version of the logo
-const ecoBottleLogo = `src/assets/logo.png`;
+// const ecoBottleLogo = `src/assets/logo.png`;
 
 const Navbar = ({ cartItems }) => {
   return (
