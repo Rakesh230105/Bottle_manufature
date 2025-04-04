@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Leaf, Droplet, Recycle, Star } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import logo from '../assets/logo.png'; // Importing the logo image
 
 const HomePage = () => {
   // Animation variants
@@ -126,7 +127,7 @@ const HomePage = () => {
           className="absolute top-8 right-8 z-20"
         >
           <img 
-            src="src/assets/logo.png" 
+            src={logo}
             alt="EcoBottle Logo" 
             className="h-24 md:h-32 lg:h-40 w-auto object-contain"
           />
