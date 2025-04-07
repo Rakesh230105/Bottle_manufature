@@ -182,27 +182,27 @@ const AboutUsPage = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               {
-                name: "Alex Morgan",
+                name: "Sri Charan",
                 role: "Founder & CEO",
                 image: "https://randomuser.me/api/portraits/men/32.jpg",
                 bio: "Environmental engineer turned entrepreneur"
               },
               {
-                name: "Jamie Smith",
+                name: "Nirvignya Ageer",
                 role: "Product Designer",
-                image: "https://randomuser.me/api/portraits/women/44.jpg",
+                image: "https://nirvignyageer.netlify.app/images/gana.jpg",
                 bio: "Specializes in sustainable materials"
               },
               {
-                name: "Taylor Chen",
+                name: "Bhuvan Tadakamadla",
                 role: "Operations",
-                image: "https://randomuser.me/api/portraits/women/63.jpg",
+                image: "https://media.licdn.com/dms/image/v2/D5603AQGKwaSVwgoAiQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1727278608756?e=1749686400&v=beta&t=AzpaWlRZnDZaa1duTuptqQNnCfNbNtsVjeDPQqvdH8w",
                 bio: "Ensures ethical supply chains"
               },
               {
-                name: "Jordan Lee",
+                name: "Pramod Kumar",
                 role: "Community Outreach",
-                image: "https://randomuser.me/api/portraits/men/75.jpg",
+                image: "https://media.licdn.com/dms/image/v2/D5603AQGQBWJdkKap9g/profile-displayphoto-shrink_400_400/B56ZQN06mqGQAk-/0/1735398764295?e=1749686400&v=beta&t=Q9xySMGtArFhicui2Z_YmtS-n2hE8YbB8FMdFcWtmMo",
                 bio: "Connects us with local initiatives"
               }
             ].map((member, index) => (
