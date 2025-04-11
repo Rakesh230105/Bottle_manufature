@@ -101,7 +101,7 @@ const SubscriptionPage = ({ setIsSubscribed, isSubscribed }) => {
               <span className="text-sm text-[#f88379] ml-1">{plan.billingCycle}</span>
             </div>
             {plan.savings && (
-              <div className="bg-[#f88379] bg-opacity-10 text-[#f88379] text-sm px-3 py-1 rounded self-start mb-4">
+              <div className="bg-[#f88379] bg-opacity-10 text-white text-sm px-3 py-1 rounded self-start mb-4">
                 {plan.savings}
               </div>
             )}
