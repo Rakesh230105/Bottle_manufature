@@ -182,7 +182,7 @@ const AboutUsPage = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               {
-                name: "Sri Charan",
+                name: "Mark Smith",
                 role: "Founder & CEO",
                 image: "https://randomuser.me/api/portraits/men/32.jpg",
                 bio: "Environmental engineer turned entrepreneur"

@@ -115,7 +115,6 @@ const HomePage = () => {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center w-full overflow-hidden">
         <div className="absolute inset-0 z-0">
-          
           <div className="absolute inset-0 bg-gradient-to-r from-white/80 to-white/40"></div>
         </div>
 
@@ -422,14 +421,22 @@ const HomePage = () => {
                 placeholder="Your email address" 
                 className="flex-grow px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-[#FF7F6E] focus:ring-2 focus:ring-[#FFE8E5]"
               />
-              <motion.button 
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="bg-[#FF7F6E] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#FF5E48] transition-colors sm:flex-shrink-0"
-              >
-                Subscribe
-              </motion.button>
+              <Link to="/subscription" className="sm:flex-shrink-0">
+                <motion.button 
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="bg-[#FF7F6E] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#FF5E48] transition-colors w-full"
+                >
+                  Subscribe
+                </motion.button>
+              </Link>
             </div>
+            <p className="text-gray-500 text-sm mt-4">
+              Join our subscription program for exclusive benefits and discounts.{" "}
+              <Link to="/subscription" className="text-[#FF7F6E] hover:underline">
+                Learn more
+              </Link>
+            </p>
           </motion.div>
         </div>
       </section>

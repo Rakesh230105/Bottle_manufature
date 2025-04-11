@@ -152,6 +152,56 @@ const ProductsPage = ({ addToCart }) => {
     },
     {
       id: 15,
+      name: "Bamboo toddler cup",
+      price: 24.99,
+      category: "bamboo",
+      image: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSouoYnJincsnLkWc2CZAYnGLNmV-st0RUOmdso43LAWLw3IE7lmDrqHqZBEvCPuDY0eWrCCo9o_bZnJisU7aTElr5lKAfg7Q",
+      description: "Our signature bamboo cup with stainless steel interior. Perfect for everyday use with 24-hour temperature control.",
+      capacity: "250ml",
+      features: ["Bamboo", "Leak-proof", "Easy cleaning"]
+    },
+    {
+      id: 16,
+      name: "Bamboo Toddler Sippy Cup",
+      price: 34.99,
+      category: "bamboo",
+      image: "https://images-cdn.ubuy.co.in/64ad2cdafa8a9a2dc33ad46f-bamboo-bamboo-toddler-sippy-cup-with.jpg",
+      description: "Our signature bamboo bottle with stainless steel interior. Perfect for everyday use with 24-hour temperature control.",
+      capacity: "450ml",
+      features: ["Bamboo", "Leak-proof", "Easy cleaning"]
+    },
+    {
+      id: 17,
+      name: "Copper Tumbler",
+      price: 34.99,
+      category: "Specality",
+      image: "https://kimkrafts.in/cdn/shop/products/KCGLCE001_1024x1024.jpg?v=1629453127",
+      description: "Traditional copper water bottle based on Ayurvedic principles. Naturally antimicrobial with health benefits.",
+      capacity: "750ml",
+      features: ["Copper", "Leak-proof", "Easy cleaning"]
+    },
+    {
+      id: 18,
+      name: "Wheat Fiber Coffe Mug",
+      price: 34.99,
+      category: "coffee",
+      image: "https://m.media-amazon.com/images/I/61CgezeDdsL.jpg",
+      description: "Specialized bottle with integrated filter for making cold brew coffee on the go. Perfect for coffee enthusiasts.",
+      capacity: "750ml",
+      features: ["Built-in filter", "Leak-proof", "Easy cleaning"]
+    },
+    {
+      id: 19,
+      name: "Eco-Friendly Glass Tumbler",
+      price: 34.99,
+      category: "glass",
+      image: "https://jucycorporategifts.com/cdn/shop/files/GlassSipper.png?v=1706597815",
+      description: "Specialized bottle with integrated filter for making cold brew coffee on the go. Perfect for coffee enthusiasts.",
+      capacity: "550ml",
+      features: ["Eco-Tumbler", "Leak-proof", "Easy cleaning"]
+    },
+    {
+      id: 20,
       name: "Wooden Thermos Flask",
       price: 49.99,
       category: "specialty",
